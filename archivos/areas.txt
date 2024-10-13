@@ -1,3 +1,2 @@
-Tesoreria,Gestion de recursos
-Administrativa,Administrar recursos humanos y formulacion de estrategias
-salud,salud ocupacional
+tic,mantenimiento
+tic,sistemas

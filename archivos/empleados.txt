@@ -1,6 +1,1 @@
-Diego,Rivera,30,1000,2455,7/10/2024,Elizabeth Castillo,Tesoreria
-Frank,Bravo,23,1000,3654,7/10/2024,Sin asignar,Tesoreria
-Daniel,Cuaran,19,1000,4567,7/10/2024,Angela Rojas,Administrativa
-juan,perez,22,1200,4,12/02/2012,Elizabeth Castillo,Tesoreria
-Tahiry,morales,22,12000,6,12/04/2024,Angela Rojas,salud
-Andres,Mauricio,22,12000,7,24/04/2016,Angela Rojas,Administrativa
+juan,guerra,13,123.0,1,12/02/2022,andres perez,tic

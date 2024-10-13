@@ -1,2 +1,2 @@
-Elizabeth,Castillo,30,2000,1234,10/10/2024,Sin asignar
-Angela,Rojas,28,2000,4536,7/10/2023,Sin asignar
+andres,perez,22,123.0,1,2/12/2012,,
+luisa,sol,22,15.0,2,12/02/1999,andres perez,tic

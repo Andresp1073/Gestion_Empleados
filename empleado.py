@@ -24,16 +24,18 @@ class Empleado:
             self.area
         ]
         datos = ",".join(atributos)
-
-        with open("./archivos/empleados.txt", "a") as f:
-            f.write(datos + "\n")
+        return datos  # Retornamos la cadena en lugar de escribir en el archivo
 
     def asignar_jefe(self, nombre_jefe):
         """Asigna un jefe al empleado y actualiza el archivo de empleados."""
         self.jefe = nombre_jefe
         # Actualizar el archivo empleados.txt
-        with open("./archivos/empleados.txt", "r") as f:
-            empleados = f.readlines()
+        try:
+            with open("./archivos/empleados.txt", "r") as f:
+                empleados = f.readlines()
+        except FileNotFoundError:
+            print("Archivo de empleados no encontrado.")
+            return
 
         with open("./archivos/empleados.txt", "w") as f:
             for empleado in empleados:
@@ -48,8 +50,12 @@ class Empleado:
         """Asigna un área al empleado y actualiza el archivo de empleados."""
         self.area = area_nombre
         # Actualizar el archivo empleados.txt
-        with open("./archivos/empleados.txt", "r") as f:
-            empleados = f.readlines()
+        try:
+            with open("./archivos/empleados.txt", "r") as f:
+                empleados = f.readlines()
+        except FileNotFoundError:
+            print("Archivo de empleados no encontrado.")
+            return
 
         with open("./archivos/empleados.txt", "w") as f:
             for empleado in empleados:
